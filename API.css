@@ -1,0 +1,16 @@
+body {
+    background-image: url(back.avif);
+    text-align: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    font-family: 'Courier New', Courier, monospace';
+ }
+
+
+ main {
+    width: 90%;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+ }

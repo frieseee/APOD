@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="API.js" defer></script>
+    <link rel="stylesheet" href="API.css">
+</head>
+
+<body>
+    <main>
+        <div style="padding-bottom: 10px;">
+            ________________________________________________________________________________________________________________________
+        </div>
+        <h1><img src="apod_logo.png" width="250"></h1>
+        <div style="padding-bottom: 10px;">
+            ________________________________________________________________________________________________________________________
+        </div>
+
+        <div style="padding-bottom: 15px;">Bem vindos ao APOD: Astronomy Picture of the Day!
+            Tem como objetivo apresentar diariamente uma imagem astronômica notável, acompanhada de uma breve descrição
+            escrita por astrônomos profissionais. Essa iniciativa da NASA e da Michigan Technological University tem
+            como propósito divulgar a ciência e a astronomia de forma acessível ao público geral. Ao mostrar imagens
+            impressionantes do universo e fornecer explicações detalhadas, o APOD busca despertar o interesse e a
+            curiosidade das pessoas sobre o cosmos e o mundo da astronomia</div>
+
+        <div>
+            Digite a data aqui apenas entre (1995 até 2023):
+        </div>
+        <input type='date' id="txData">
+        <button id="btPesquisar">Pesquisar</button>
+        <div>
+            <div style="padding-bottom: 10px;">
+                ________________________________________________________________________________________________________________________
+            </div>
+            <img src="" id="apod" height="500px">
+            <div style="padding-bottom: 10px;">
+                ________________________________________________________________________________________________________________________
+            </div>
+            <div id="explicacao"></div>
+        </div>
+    </main>
+</body>
+
+</html>
